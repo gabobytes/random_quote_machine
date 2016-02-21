@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Quote Machine</title>	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+
+</head>
+<body>
+<div class="container">
+  <div class="row" align="center">
+  <h1><i class="fa fa-random"></i> Random Quote Machine</h1>
+  </div>
+  
+  <div class="row">
+    <div class="content">
+      <div class="quoteDiv"><!-- div AllQuote -->
+        <div class="row"><!-- rowQuote-->
+        <div id="quote" class="col-md-8"><!-- div quote -->
+        </div><!--end div quote-->      
+        
+        <div class="col-md-4"><!-- div btnQuote-->
+          <button id="btnQuote" type="button" class="btn btn-success btn-lg"><i class="fa fa-play"></i> Generate Random Quote</button>
+        </div><!-- end div btnQuote -->
+        </div><!-- end div RowQuote -->  
+        
+        <div class="row">
+           <p style="text-align:center; font-size:0.6em;"><span class="aut"></span></p>
+        </div><!--row author -->
+        
+      </div><!-- end div Allquote -->
+     </div><!-- end div row -->
+    
+      <div class="row">
+       <!-- div tweet button --> 
+        <div id="tweetIt" class="tweetDiv">
+               <a href="https://twitter.com/intent/tweet?" target="_blank" class="btn btn-info btn-lg"><i class="fa fa-twitter"></i> <strong> Tweet quote!</strong></a>
+        </div><!-- end div tweet-->
+      </div><!-- end row tweeet btn -->
+    
+      <div class="row" align="center">
+        <a href="http://www.freecodecamp.com/gabrielmeloarteaga" target="_blank">By Gabriel Melo</a>
+    </div>      
+    </div><!--- end content -->  
+</div><!-- end div container -->	
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/random.js" type="text/javascript"></script>
+
+</body>
+</html>

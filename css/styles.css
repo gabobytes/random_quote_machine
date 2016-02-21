@@ -1,0 +1,17 @@
+body{
+  padding:20px;
+}
+
+.quoteDiv{
+  padding-top:60px;  
+  padding-left:50px;
+  background-color:#C4C4C4;
+  min-height:250px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2.5em;
+}
+
+.tweetDiv{
+  padding:40px;
+  text-align:center;
+}
